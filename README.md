@@ -142,6 +142,20 @@ Available targets:
 |------|---------|
 | aws | >= 2.0 |
 
+## Modules
+
+| Name | Source | Version |
+|------|--------|---------|
+| rule_label | cloudposse/label/null | 0.22.0 |
+| this | cloudposse/label/null | 0.24.1 |
+
+## Resources
+
+| Name |
+|------|
+| [aws_cloudwatch_event_rule](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_event_rule) |
+| [aws_cloudwatch_event_target](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_event_target) |
+
 ## Inputs
 
 | Name | Description | Type | Default | Required |
@@ -173,7 +187,6 @@ Available targets:
 |------|-------------|
 | aws\_cloudwatch\_event\_rule\_arn | The Amazon Resource Name (ARN) of the rule. |
 | aws\_cloudwatch\_event\_rule\_id | The name of the rule |
-
 <!-- markdownlint-restore -->
 
 
